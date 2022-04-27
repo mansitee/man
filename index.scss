@@ -1,0 +1,154 @@
+html:not([debug]) {
+  overflow-x: hidden;
+}
+body {
+  width:100vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.hidden, [hidden] {
+  display: none!important;
+}
+header { 
+  background-color: cornflowerblue; 
+  width: 100vw;
+  height: 96px;
+  position:fixed;
+  top: 0;
+  z-index: 1;
+  display: none;
+}
+
+footer { 
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 64px;
+  position:fixed;
+  bottom: 0;
+  z-index: 1;
+  display: none;
+}
+
+header label, footer label {
+  display: block;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  flex: auto;
+  width: 100%;
+}
+footer label {
+  border-style: dashed none dotted double;
+  border-width: 3px;
+  border-top-left-radius: 20px;
+}
+header label {
+  border-style: dotted none dashed double;
+  border-width: 13px;
+  border-bottom-left-radius: 40px;
+}
+
+html:not([debug]) input[type="radio"] {
+  -webkit-appearance:none;
+  margin: 0;
+  display: none;
+}
+
+main {
+  height: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+  transition: margin 1s;
+  white-space: nowrap;
+}
+
+nav, article {
+  width: 100vw;
+  flex-basis: 100vw;
+  flex-grow: 0;
+  flex-shrink: 0;
+  transition: background-color 0.5s;
+  min-height: 100vh;
+}
+
+nav { 
+  background-color: aliceblue; 
+}
+  .navcontent { 
+    height: 2000px;
+  }
+
+article { 
+  background-color: darkseagreen;
+}
+article:nth-child(odd) { 
+  background-color: aliceblue;
+}
+
+  header { 
+  }
+  main {
+    margin-left: 0;
+  }
+
+@media (max-width: 600px) {
+  header label, footer label {
+    padding-top: 12px;
+  }
+
+  footer {
+    display: flex;
+  }
+  main {
+    width: 400vw;
+  }
+  nav>*, article>* {
+    padding: 1em 1em 64px;
+  }
+  #checked1:checked ~ main {
+    margin-left: -100vw;
+  }
+  #checked2:checked ~ main {
+    margin-left: -200vw;
+  }
+  #checked3:checked ~ main {
+    margin-left: -300vw;
+  }
+}
+
+@media (min-width: 601px) {
+  header {
+    display: flex;
+  }
+  header label, footer label {
+    padding-top: 24px;
+  }
+
+  main {
+    width: 200vw;
+  }
+  nav, article {
+    width: 50vw;
+    flex-basis: 50vw;
+  }
+  nav>*, article>* {
+    padding: 96px 1em 1em;
+  }
+  
+  #checked2:checked ~ main {
+    margin-left: -100vw;
+  }
+  #checked3:checked ~ main {
+    margin-left: -100vw;
+  }
+}
+
+  html[debug] header {
+    display: none;
+  }
+  html[debug] footer {
+    display: none;
+  }
