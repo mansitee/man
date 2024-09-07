@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body {
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+	background-color: #000;
+	color: #e1e1e3;
+	overflow-x: hidden;
+	min-height: 100dvh;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	margin: 0;
+	padding: 0.5em 1em;
+	position: sticky;
+	top: 0;
+	background-color: #111217;
+	color: #dcdde2;
+}
+
+footer {
+	margin: 0;
+	padding: 0.5em;
+	position: sticky;
+	bottom: 0;
+	margin-top: auto;
+	height: 50px;
+	background-color: #111217;
+	color: #dcdde2;
+	display: flex;
+	justify-content: space-around;
+}
+
+.subpage {
+	width: clamp(50px, 100%, 60px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.subpage:hover, .subpage:active {
+	.subpage-icon {
+		background-color: #24252a;
+	}
+}
+
+#selected {
+	.subpage-icon {
+		background-color: #3f4659;
+	}
+} 
+
+.subpage-icon {
+	margin: 0;
+	padding: 0 1em;
+	border-radius: 5px;
+	font-size: 1.5em;
+	transition: all 0.3s ease;
+	font-weight: bold;
+}
+
+.subpage-subtext {
+	margin: 0;
+	text-decoration: none;
+	color: #dcdde2;
+}
+
+h1 {
+	margin: 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	max-width: 200px;
+}
+
+button {
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	width: clamp(100px, 100%, 200px);
+}
+
+button:hover, button:active {
+	background-color: #ccc;
+}
+
+.timetable {
+	margin: 0;
+    min-width: 300px;
+	@media screen and (max-width: 768px) {
+		width: 100vw;
+	}
+}
+
+table td, table th {
+	margin: 0;
+	padding: 0.25em;
+}
+
+table td:nth-child(1) {
+	padding-left: 0.5em;
+}
+
+table td:nth-child(3) {
+	padding-right: 0.5em;
+}
+
+#lesson_slot {
+	font-size: 2em;
+	text-align: center;
+	width: 2.4rem;
+}
+
+#hour {
+	color: #9c9c9e;
+	width: 2rem;
+}
+
+main p {
+	display: inline;
+}
+
+#classroom {
+	color: #9c9c9e;
+}
+
+#teacher {
+	color: #9c9c9e;
+}

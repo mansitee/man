@@ -1,0 +1,360 @@
+{
+    "d": {
+        "pon.": {
+            "name": "Poniedziałek",
+            "lessons": {
+                "3": {
+                    "id_lesson": "JN",
+                    "class": "11"
+                },
+                "4": {
+                    "id_lesson": "FI",
+                    "class": "51"
+                },
+                "5": {
+                    "id_lesson": "JP",
+                    "class": "111"
+                },
+                "6": {
+                    "id_lesson": "JP",
+                    "class": "111"
+                },
+                "7": {
+                    "id_lesson": "MA",
+                    "class": "107"
+                },
+                "8": {
+                    "id_lesson": "CH",
+                    "class": "50"
+                },
+                "9": {
+                    "id_lesson": "TSA",
+                    "class": "42"
+                }          
+            }
+        },
+        "wt.": {
+            "name": "Wtorek",
+            "lessons": {
+                "2": {
+                    "id_lesson": "JP",
+                    "class": "111"
+                },
+                "3": {
+                    "id_lesson": "HI",
+                    "class": "106"
+                },
+                "4": {
+                    "id_lesson": "BI",
+                    "class": "105"
+                },
+                "5": {
+                    "id_lesson": "IN",
+                    "class": "37"
+                },
+                "6": {
+                    "id_lesson": "TBD",
+                    "class": "37"
+                },
+                "7": {
+                    "id_lesson": "TSA",
+                    "class": "37"
+                },
+                "8": {
+                    "id_lesson": "GE",
+                    "class": "6"
+                }       
+            }
+        },
+        "sr.": {
+            "name": "Środa",
+            "lessons": {
+                "4": {
+                    "id_lesson": "JA",
+                    "class": "110"
+                },
+                "5": {
+                    "id_lesson": "HT",
+                    "class": "109"
+                },
+                "6": {
+                    "id_lesson": "TSA",
+                    "class": "42"
+                },
+                "7": {
+                    "id_lesson": "JN",
+                    "class": "10"
+                },
+                "8": {
+                    "id_lesson": "JZ",
+                    "class": "103"
+                },
+                "9": {
+                    "id_lesson": "BD",
+                    "class": "10"
+                },
+                "10": {
+                    "id_lesson": "WF",
+                    "class": "26"
+                },
+                "11": {
+                    "id_lesson": "WF",
+                    "class": "26"
+                }
+            }
+        },
+        "czw.": {
+            "name": "Czwartek",
+            "lessons": {
+                "2": {
+                    "id_lesson": "JA",
+                    "class": "110"
+                },
+                "3": {
+                    "id_lesson": "PPR",
+                    "class": "37"
+                },
+                "4": {
+                    "id_lesson": "JA",
+                    "class": "110"
+                },
+                "5": {
+                    "id_lesson": "WF",
+                    "class": "26"
+                },
+                "6": {
+                    "id_lesson": "DG",
+                    "class": "42"
+                },
+                "7": {
+                    "id_lesson": "JZ",
+                    "class": "11"
+                },
+                "8": {
+                    "id_lesson": "SA",
+                    "class": "103"
+                },
+                "9": {
+                    "id_lesson": "ZW",
+                    "class": "106"
+                }
+            }
+        },
+        "pt.": {
+            "name": "Piątek",
+            "lessons": {
+                "3": {
+                    "id_lesson": "MA",
+                    "class": "50"
+                },
+                "4": {
+                    "id_lesson": "MA",
+                    "class": "50"
+                },
+                "5": {
+                    "id_lesson": "0",
+                    "class": ""
+                },
+                "6": {
+                    "id_lesson": "TBD",
+                    "class": "37"
+                },
+                "7": {
+                    "id_lesson": "PP",
+                    "class": "12"
+                },
+                "8": {
+                    "id_lesson": "HI",
+                    "class": "106"
+                },
+                "9": {
+                    "id_lesson": "TSA",
+                    "class": "37"
+                }
+            }
+        }
+    },
+    "i": {
+        "pon.": {
+            "name": "Poniedziałek",
+            "lessons": {
+                "2": {
+                    "id_lesson": "MA",
+                    "class": "8"
+                },
+                "3": {
+                    "id_lesson": "RE",
+                    "class": "Aula"
+                },
+                "4": {
+                    "id_lesson": "OŚ",
+                    "class": "216"
+                },
+                "5": {
+                    "id_lesson": "GE",
+                    "class": "112"
+                },
+                "6": {
+                    "id_lesson": "BI",
+                    "class": "106"
+                },
+                "7": {
+                    "id_lesson": "MŚ",
+                    "class": "215"
+                },
+                "8": {
+                    "id_lesson": "JP",
+                    "class": "104"
+                },
+                "9": {
+                    "id_lesson": "RJA",
+                    "class": "19"
+                },
+                "10": {
+                    "id_lesson": "RJA",
+                    "class": "19"
+                }
+            }
+        },
+        "wt.": {
+            "name": "Wtorek",
+            "lessons": {
+                "4": {
+                    "id_lesson": "IN",
+                    "class": "111"
+                },
+                "5": {
+                    "id_lesson": "WF",
+                    "class": "14"
+                },
+                "6": {
+                    "id_lesson": "WF",
+                    "class": "GimnG2"
+                },
+                "7": {
+                    "id_lesson": "CH",
+                    "class": "11"
+                },
+                "8": {
+                    "id_lesson": "HT",
+                    "class": "109"
+                },
+                "9": {
+                    "id_lesson": "GOG",
+                    "class": "114"
+                }
+            }
+        },
+        "sr.": {
+            "name": "Środa",
+            "lessons": {
+                "2": {
+                    "id_lesson": "MA",
+                    "class": "10"
+                },
+                "3": {
+                    "id_lesson": "RBI",
+                    "class": "106"
+                },
+                "4": {
+                    "id_lesson": "WF",
+                    "class": "GimnG2"
+                },
+                "5": {
+                    "id_lesson": "ZW",
+                    "class": "113"
+                },
+                "6": {
+                    "id_lesson": "RE",
+                    "class": "211"
+                },
+                "7": {
+                    "id_lesson": "HI",
+                    "class": "109"
+                },
+                "8": {
+                    "id_lesson": "OW",
+                    "class": "114"
+                },
+                "9": {
+                    "id_lesson": "OW",
+                    "class": "114"
+                }
+            }
+        },
+        "czw.": {
+            "name": "Czwartek",
+            "lessons": {
+                "3": {
+                    "id_lesson": "PP",
+                    "class": "8"
+                },
+                "4": {
+                    "id_lesson": "MŚ",
+                    "class": "114"
+                },
+                "5": {
+                    "id_lesson": "MŚ",
+                    "class": "114"
+                },
+                "6": {
+                    "id_lesson": "HI",
+                    "class": "109"
+                },
+                "7": {
+                    "id_lesson": "ZJA",
+                    "class": "216"
+                },
+                "8": {
+                    "id_lesson": "GOG",
+                    "class": "216"
+                },
+                "9": {
+                    "id_lesson": "GOG",
+                    "class": "216"
+                },
+                "10": {
+                    "id_lesson": "FI",
+                    "class": "8"
+                }
+            }
+        },
+        "pt.": {
+            "name": "Piątek",
+            "lessons": {                
+                "2": {
+                    "id_lesson": "JA",
+                    "class": "210"
+                },
+                "3": {
+                    "id_lesson": "JP",
+                    "class": "104"
+                },
+                "4": {
+                    "id_lesson": "JPT",
+                    "class": "104"
+                },
+                "5": {
+                    "id_lesson": "JN",
+                    "class": "216"
+                },
+                "6": {
+                    "id_lesson": "JN",
+                    "class": "216"
+                },
+                "7": {
+                    "id_lesson": "OPH",
+                    "class": "210"
+                },
+                "8": {
+                    "id_lesson": "OPH",
+                    "class": "210"                
+                },
+                "9": {
+                    "id_lesson": "OPH",
+                    "class": "210"
+                }
+            }
+        }
+    }
+}

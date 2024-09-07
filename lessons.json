@@ -1,0 +1,171 @@
+{
+    "lessons": {
+        "d": {
+            "BD": {
+                "name": "Bazy danych",
+                "teacher": "Marek Leja"
+            },
+            "BI": {
+                "name": "Biologia",
+                "teacher": "Agnieszka Klimek"
+            },
+            "CH": {
+                "name": "Chemia",
+                "teacher": "Beata Kata"
+            },
+            "DG": {
+                "name": "Działalność gospodarcza",
+                "teacher": "Ewa Barczyk"
+            },
+            "FI": {
+                "name": "Fizyka",
+                "teacher": "Katarzyna Matkowska"
+            },
+            "GE": {
+                "name": "Geografia",
+                "teacher": "Katarzyna Trzupek"
+            },
+            "HI": {
+                "name": "Historia",
+                "teacher": "Agnieszka Przysiecka"
+            },
+            "HT": {
+                "name": "Historia i teraźniejszość",
+                "teacher": "Jolanta Kulig"
+            },
+            "IN": {
+                "name": "Informatyka",
+                "teacher": "Piotr Kuriata"
+            },
+            "JA": {
+                "name": "Jezyk angielski",
+                "teacher": "Małgorzata Szymańska"
+            },
+            "JZ": {
+                "name": "język angielski zawodowy",
+                "teacher": "Monika Pietrzyk"
+            },
+            "JN": {
+                "name": "Język niemiecki",
+                "teacher": "Grażyna Wojtasik"
+            },
+            "JP": {
+                "name": "Język polski",
+                "teacher": "Kusek Katarzyna"
+            },
+            "MA": {
+                "name": "Matematyka",
+                "teacher": "Wesołowski Marcin"
+            },
+            "PPR": {
+                "name": "Podstawy programowania",
+                "teacher": "Piotr Soppa"
+            },
+            "PP": {
+                "name": "Podstawy przedsiębiorczości",
+                "teacher": "Krystyna Przybecka"
+            },
+            "SA": {
+                "name": "Strony i aplikacje internetowe",
+                "teacher": "Piotr Soppa"
+            },
+            "TBD": {
+                "name": "Tworzenie i zarządzanie bazami danych",
+                "teacher": "Marek Leja"
+            },
+            "TSA": {
+                "name": "tworzenie stron i aplikacji internetowych",
+                "teacher": "Piotr Kuriata"
+            },
+            "WF": {
+                "name": "Wychowanie fizyczne",
+                "teacher": "Andrzej Polak"
+            },
+            "ZW": {
+                "name": "Zajęcia z wychowawcą",
+                "teacher": "Agnieszka Przysiecka"
+            },
+            "0": {
+                "name": "Okienko",
+                "teacher": ""
+            }
+        },
+        "i": {
+            "BI": {
+                "name": "Biologia"
+            },
+            "CH": {
+                "name": "Chemia"
+            },
+            "FI": {
+                "name": "Fizyka"
+            },
+            "GE": {
+                "name": "Geografia"
+            },
+            "GOG": {
+                "name": "gosp_odp_gle [?]"
+            },
+            "HI": {
+                "name": "Historia"
+            },
+            "HT": {
+                "name": "Historia i teraźniejszość"
+            },
+            "IN": {
+                "name": "Informatyka"
+            },
+            "JA": {
+                "name": "Jezyk angielski"
+            },
+            "JN": {
+                "name": "Jezyk niemiecki"
+            },
+            "JP": {
+                "name": "Jezyk polski"
+            },
+            "MA": {
+                "name": "Matematyka"
+            },
+            "MŚ": {
+                "name": "Monitorowanie środowiska"
+            },
+            "OPH": {
+                "name": "ochr_pow_ha [?]"
+            },
+            "OW": {
+                "name": "Ochrona wód"
+            },
+            "OŚ": {
+                "name": "Ochrona środowiska"
+            },
+            "PP": {
+                "name": "Podstawy przedsiębiorczości"
+            },
+            "RE": {
+                "name": "Religia"
+            },
+            "RJA": {
+                "name": "Rozszerzony jezyk angielski"
+            },
+            "RBI": {
+                "name": "Rozszerzona biologia"
+            },
+            "RCH": {
+                "name": "Rozszerzona chemia"
+            },
+            "WF": {
+                "name": "Wychowanie fizyczne"
+            },
+            "ZJA": {
+                "name": "Zawodowy angielski [?]"
+            },
+            "ZW": {
+                "name": "Zajęcia z wychowawcą"
+            },
+            "0": {
+                "name": "Okienko"                
+            }
+        }
+    }
+}
