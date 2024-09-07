@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Simple PWA</title>
+	<link rel="canonical" href="https://simplepwa.com" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Icons and Colors -->
+	<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+	<link rel="manifest" href="../manifest.json">
+	<link rel="mask-icon" href="../safari-pinned-tab.svg" color="#111217">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<meta name="msapplication-TileColor" content="#111217">
+	<meta name="msapplication-TileImage" content="../mstile-144x144.png">
+	<meta name="msapplication-config" content="../browserconfig.xml">
+	<meta name="theme-color" content="#111217">
+	
+	<!-- SEO and Social Sharing and SEO -->
+	<meta name="description" content="Plan lekcji (PWA)" />
+	<meta name="robots" content="noodp" />
+	<meta name="author" content="PanWor">
+	<meta name="keywords" content="progressive web app, progressive web application, pwa, pwa progressive web app, pwa progressive web application, progressive app, basic progressive web app, basic progressive web application, basic pwa, example progressive web app, example progressive web application, example pwa, progressive web app basic, progressive web app builder, progressive web app example, progressive web app sample, progressive web app template, sample progressive web app, sample progressive web application, sample pwa, free progressive web application template, progressive web application template, progressive web app template free, progressive web app template free download, progressive web app html template, progressive web app template github" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Simple PWA" />
+	<meta property="og:description" content="Plan lekcji (PWA)" />
+	<meta property="og:url" content="https://panwor.github.io/planlekcji" />
+	<meta property="og:site_name" content="Simple PWA" />
+	<meta property="section:publisher" content="https://www.facebook.com/simplepwa/" />
+	<meta property="og:image" content="https://simplepwa.com/share.jpg" />
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="../style.css">
+	
+
+	<!-- Javscript -->
+	<!-- <script>
+		if ("serviceWorker" in navigator) {
+			window.addEventListener("load", () => {
+				navigator.serviceWorker && navigator.serviceWorker.register("../sw.js");
+			});
+		}
+	</script> !-->  
+  <script defer src="../main.js"></script>
+ </head>
+
+ <body>
+	<header>
+		<h1>Plan lekcji - Dawid</h1>
+	</header>
+	<main>
+		<script src="../script.js"></script>
+		<script >showTodayTimetable("d");</script>
+		<table border=1 frame=void rules=rows class="timetable" id="d"></table>
+	</main>
+	<footer>
+		<div onclick="document.location.href='../d/index.html'" class="subpage" id="selected">
+			<p class="subpage-icon">D</p>
+			<p class="subpage-subtext">Dawid</p>
+		</div>
+		<div onclick="document.location.href='../i/index.html'" class="subpage">
+			<p class="subpage-icon">I</p>
+			<p class="subpage-subtext">Iga</p>
+		</div>
+		
+		<div onclick="document.location.href='../i/index.html'" class="subpage">
+			<p class="subpage-icon">Mit</p>
+			<p class="subpage-subtext">Iga</p>
+		</div>
+		<div onclick="document.location.href='../w/index.html'" class="subpage">
+			<p class="subpage-icon">W</p>
+			<p class="subpage-subtext">Werka</p>
+		</div>
+	</footer>	
+ </body>
+
+ </html>
